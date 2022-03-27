@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-image: url(Back_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    display: inline-block;
+  
+}
+#MyLogo img{
+    text-align: center;
+    margin: 5px 10px;
+}
+img{
+    width: 100px;
+    border-radius: 40%;
+}
+#menu{
+    background: rgb(2, 63, 2,0.5);
+    text-align: center;
+    
+}
+#menu ul{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+#menu ul li{
+    padding: 15px;
+    margin:5px;
+    width: 140px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+#menu ul li a:hover{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.active,#menu ul li:hover{
+    background-color: #2bab02;
+    border-radius: 3px;
+}
+.Succsess{
+margin: 150px 100px;
+padding: 25px;
+}
+#Size{
+    font-family: sans-serif;
+}
