@@ -10,6 +10,8 @@ body{
     font-family: sans-serif;
 }
 .box{
+    margin-top: 0px;
+    padding: 0px;
     display: inline-block;
   
 }
@@ -52,7 +54,30 @@ img{
 .Succsess{
 margin: 150px 100px;
 padding: 25px;
+background-color: rgb(2, 63, 2,0.3);
+width: 40%;
 }
 #Size{
     font-family: sans-serif;
+}
+.Footer{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(0, 0, 0,0.5);
+    display: inline-block;
+}
+.Footer ul li a{
+    margin: 5px;
+    padding: 1px;
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
+}
+.Footer ul li a:hover{
+    margin: 5px;
+    padding: 10px;
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
 }

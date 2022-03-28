@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(BackgroundImg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.Divs{
+    width: 30%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.Divs #div2{
+    margin: 0px auto;
+    text-align:start;
+}
+button{
+    width:100px;
+    padding: 5px;
+    margin: 10px;
+}

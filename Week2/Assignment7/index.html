@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechnoWeb</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="Div1">
+      <form>
+        <div>
+          <label for="Name">Name:</label>
+          <input id="Name" type="text" placeholder="Enter Your Name" />
+        </div>
+        <div>
+          <label for="Email">Email-Id:</label>
+          <input id="Email" type="email" placeholder="abc@gmail.com" />
+        </div>
+        <div>
+          <label for="Password">Password:</label>
+          <input
+            id="Password"
+            type="password"
+            placeholder="Enter your Password"
+            maxlength="8"
+          />
+        </div>
+        <div>
+          <label for="MobileNumber">Mobile Number:</label>
+          <input type="tel"
+          id="MobileNumber"
+          pattern="^\d{3}-\d{3}-\d{4}$"
+          required="required"
+          placeholder="Enter Mobile Number"
+         />
+        </div>
+        <div>
+          <label for="Coursess">Coursess:</label>
+          <br />
+          <input id="check" type="checkbox"  value="C Programming" checked/><label for="check"
+            >C Programming</label
+          >
+          <input id="check" type="checkbox" value="Java Programming" /><label for="check"
+            >Java Programming</label
+          >
+          <input id="check" type="checkbox" value="Full Stack" /><label for="check"
+            >Full Stack
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="Video">
+      <h1 margin:10px>Click below to download Video</h1>
+      <br />
+      <br />
+      <video  width="420px" height="320px" controls>
+          <source  src="HelloWorldC.mp4" type="video/mp4" >
+      </video>
+    </div>
+  </body>
+</html>

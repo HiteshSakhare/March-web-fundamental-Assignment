@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(Background.jpg);
+    background-size: cover;
+}
+.Div1{
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+    margin: 100px auto;
+    padding: 50px;
+}
+form div{
+    padding: 10px;
+
+}
+.Video{
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+}
