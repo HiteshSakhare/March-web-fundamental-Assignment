@@ -1,0 +1,27 @@
+
+.h1-class{
+    padding: 10px;
+    background-color:navajowhite;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.one{
+    background-color: aqua;
+    color: #fff;
+}
+.two{
+    background-color:yellowgreen;
+    color: #fff;
+}
+.three{
+    background-color: orange;
+    color: #fff;
+}
+.four{
+    background-color: pink;
+    color: #fff;
+}
+.five{
+    background-color: gray;
+    color: #fff;
+}
