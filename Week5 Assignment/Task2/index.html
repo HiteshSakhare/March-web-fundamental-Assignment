@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img id="img" src="Friends.jfif" alt="Friends">
+        <br>
+        <button onclick="changeToFriends()">Friends</button>
+        <button onclick="changeToFamilly()">Family</button>
+        <script>
+            function changeToFamilly(){
+               var imgref1= document.getElementById('img')
+               imgref1.src="Family.jfif"
+               //imgref1.width="400px";
+               // change to square
+            }
+            function changeToFriends(){
+                var imgref2= document.getElementById('img')
+               imgref2.src="Friends.jfif"
+              // imgref2.width="400px";
+              //change to circle
+            }
+        </script>
+    </div>
+</body>
+</html>
